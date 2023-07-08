@@ -1,9 +1,14 @@
+import BottomNav from "./components/bottomNav/BottomNav";
+import SideNav from "./components/sideNav/SideNav";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="h-full flex items-center justify-center">
-      <p className="p-3 bg-slate-500 text-white">Hello World</p>
+    <div>
+      <SideNav />
+      <p>HEloooodfdf</p>
+      <BottomNav />
     </div>
   );
 }
